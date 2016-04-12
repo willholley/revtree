@@ -1,0 +1,21 @@
+{
+  "name": "revtree",
+  "version": "1.0.0",
+  "description": "Visualise a CouchDB document revision tree",
+  "dependencies": {
+    "ascii-tree": "0.3.0"
+  },
+  "repository": "https://github.com/willholley/revtree.git",
+  "keywords": [
+    "CouchDB",
+    "revision",
+    "couch",
+    "command-line",
+    "history"
+  ],
+  "author": "Will Holley",
+  "license": "Apache 2.0",
+  "bin": {
+    "revtree": "app.js"
+  }
+}
