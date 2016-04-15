@@ -7,7 +7,7 @@ npm install -g revtree
 
 ## Usage
 
-curl 'http://path/to/my/document?open_revs=all&revs=true' | revtree
+curl  -H 'Accept: application/json' 'http://path/to/my/document?open_revs=all&revs=true' | revtree
 
 ## Example output
 
